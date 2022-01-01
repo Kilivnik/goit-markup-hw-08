@@ -103,6 +103,7 @@ img {
 }
 
 .section-background {
+  padding-top: 60px;
   background: #f5f4fa;
 }
 
@@ -149,7 +150,6 @@ img {
   text-align: center;
   text-transform: uppercase;
   color: var(--primary-title-color);
-  padding-top: 60px;
   margin-bottom: 10px;
 }
 
