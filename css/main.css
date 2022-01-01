@@ -102,6 +102,23 @@ img {
   background: #ffffff;
 }
 
+.section-background {
+  background: #f5f4fa;
+}
+
+.section__title {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--primary-title-color);
+}
+
+.section__title-mb {
+  margin-bottom: 30px;
+}
+
 .features__item:not(:last-child) {
   margin-bottom: 30px;
 }
@@ -132,6 +149,7 @@ img {
   text-align: center;
   text-transform: uppercase;
   color: var(--primary-title-color);
+  padding-top: 60px;
   margin-bottom: 10px;
 }
 

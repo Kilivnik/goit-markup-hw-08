@@ -2,3 +2,17 @@
   margin-bottom: 60px;
   background: #ffffff;
 }
+
+.section-background {
+  background: #f5f4fa;
+}
+
+.section__title {
+  @include font(700, 28px, 1.17, 0.03em);
+  text-align: center;
+  color: var(--primary-title-color);
+}
+
+.section__title-mb {
+  margin-bottom: 30px;
+}
