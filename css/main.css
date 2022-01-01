@@ -96,4 +96,50 @@ img {
     width: 1200px;
   }
 }
+
+.section {
+  margin-bottom: 60px;
+  background: #ffffff;
+}
+
+.features__item:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.features__box {
+  position: relative;
+  width: 450px;
+  height: 120px;
+  margin-bottom: 30px;
+  align-items: center;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
+.section-item-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+
+.features__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--primary-title-color);
+  margin-bottom: 10px;
+}
+
+.features__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
 /*# sourceMappingURL=main.css.map */
