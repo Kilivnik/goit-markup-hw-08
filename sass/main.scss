@@ -2,6 +2,7 @@
 @import "./utils/hidden";
 @import "./utils/mixins";
 @import "./utils/variables";
+@import "./utils/placeholders";
 
 @import "./base/common";
 @import "./base/reset";
@@ -9,5 +10,9 @@
 @import "./components/container";
 @import "./components/section";
 
+@import "./layout/header";
+@import "./layout/menu-mob";
 @import "./layout/features";
+@import "./layout/about";
 @import "./layout/team";
+@import "./layout/client";

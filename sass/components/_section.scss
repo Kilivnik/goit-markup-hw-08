@@ -3,8 +3,16 @@
   background: #ffffff;
 }
 
+.section-padding-not {
+  padding-top: 0;
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
+}
+
 .section-background {
   padding-top: 60px;
+  padding-bottom: 60px;
   background: #f5f4fa;
 }
 

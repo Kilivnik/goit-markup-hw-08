@@ -1,0 +1,22 @@
+.header {
+  color: var(--primary-color);
+  border: 1px solid #ececec;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.navigation {
+  display: none;
+}
+
+.header__contacts {
+  display: none;
+}
