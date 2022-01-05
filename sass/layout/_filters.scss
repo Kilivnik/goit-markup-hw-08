@@ -1,12 +1,15 @@
 .filters {
-  @extend %flex-list;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .section__filters {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
-.filters__item:not(:last-child) {
+.filters__item {
+  margin-bottom: 15px;
   margin-right: 8px;
 }
 
