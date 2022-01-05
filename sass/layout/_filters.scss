@@ -2,15 +2,29 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  @media screen and (min-width: 768px) {
+    justify-content: center;
+  }
 }
 
 .section__filters {
   margin-bottom: 40px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 30px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 50px;
+  }
 }
 
 .filters__item {
   margin-bottom: 15px;
   margin-right: 8px;
+  @media screen and (min-width: 1200px) {
+    &:not(:last-child) {
+      margin-right: 8px;
+    }
+  }
 }
 
 .filters__btn {

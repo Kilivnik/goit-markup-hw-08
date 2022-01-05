@@ -8,6 +8,9 @@
   &:focus {
     fill: var(--accent-color);
   }
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
 }
 
 .menu-mob {
@@ -80,11 +83,13 @@
 
 .menu-mob__social__list {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .menu-mob__social__item {
   @include font(500, 18px, 1.22, 0.02em);
   color: var(--accent-color);
+  margin-bottom: 10px;
   &:not(:last-child) {
     margin-right: 20px;
   }
