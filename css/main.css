@@ -181,7 +181,7 @@ img {
 }
 
 .section__title-mb {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .social__item {
@@ -906,10 +906,15 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  text-align: center;
   text-transform: uppercase;
   color: var(--primary-title-color);
   margin-bottom: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .features__title {
+    text-align: center;
+  }
 }
 
 .features__text {
@@ -949,6 +954,10 @@ img {
   min-height: 70px;
   width: 370px;
   background: rgba(47, 48, 58, 0.8);
+}
+
+.team {
+  margin-bottom: -30px;
 }
 
 @media screen and (min-width: 768px) {

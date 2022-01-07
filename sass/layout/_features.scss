@@ -44,10 +44,12 @@
 
 .features__title {
   @include font(700, 14px, 1.14, 0.03em);
-  text-align: center;
   text-transform: uppercase;
   color: var(--primary-title-color);
   margin-bottom: 10px;
+  @media screen and (max-width: 767px) {
+    text-align: center;
+  }
 }
 
 .features__text {
