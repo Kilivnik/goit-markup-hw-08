@@ -181,7 +181,13 @@ img {
 }
 
 .section__title-mb {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 1200px) {
+  .section__title-mb {
+    margin-bottom: 50px;
+  }
 }
 
 .social__item {
@@ -460,7 +466,7 @@ img {
 
 .header {
   color: var(--primary-color);
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 
 .header__container {
@@ -866,6 +872,11 @@ img {
   .features__item {
     flex-basis: calc(100% / 2 - 30px);
     margin-right: 30px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .features__item {
     margin-bottom: 30px;
   }
 }
